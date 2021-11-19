@@ -1,0 +1,32 @@
+.top-container {
+  background: lightblue;
+  padding: 16px;
+  border: 4px solid blue;
+  gap: 8px;
+  display: flex;
+}
+
+.top-item-one,
+.top-item-two,
+.top-item-three {
+  background: palevioletred;
+  border: 4px solid black;
+  height: 100px;
+  flex: 1;
+  padding: 4 px;
+}
+
+.top-item-two {
+  display: flex;
+}
+
+.top-item-a,
+.top-item-b {
+  background: limegreen;
+  border: 4px solid orange;
+  height: 50px;
+  flex: 1;
+  /* position: absolute; */
+}
+
+/* https://cdn.statically.io/gh/TheOdinProject/curriculum/495704c6eb6bf33bc927534f231533a82b27b2ac/html_css/v2/foundations/flexbox/imgs/05.png */
