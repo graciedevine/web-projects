@@ -5,22 +5,22 @@
 }
 .flex {
   display: flex;
-  padding: 0.5em;
+  padding: 1em;
 }
 .green {
-  border: solid green;
+  border: 6px solid green;
   background: lightgreen;
   flex-direction: column;
 }
 .blue {
   background: lightblue;
   padding: 16px;
-  border: 4px solid blue;
+  border: 6px solid blue;
   gap: 8px;
 }
 .pink {
   background: peachpuff;
-  border: 4px solid rgb(235, 129, 146);
+  border: 6px solid rgb(235, 129, 146);
   height: 100px;
   padding: 4px;
 }
@@ -31,78 +31,33 @@
 .invisible-green-left,
 .invisible-green-right {
   background: lightgreen;
+  margin-bottom: 10px;
 }
 .invisible-green-right {
-  gap: 8px;
+  gap: 10px;
   flex-direction: column;
+  padding: 10px;
 }
 .big {
   height: 300px;
+  margin-left: -15px;
 }
-.little {
+.cran-2,
+.cran-1 {
   height: 140px;
+  margin-left: 20px;
+}
+.cran-1 {
+  margin-top: -9px;
+  margin-bottom: 8px;
 }
 .cranberry {
   background: palevioletred;
-  border: solid magenta;
+  border: 6px solid magenta;
 }
 .purple {
   background: rgb(163, 129, 163);
-  border: 4px solid purple;
-}
-
-/* https://cdn.statically.io/gh/TheOdinProject/curriculum/495704c6eb6bf33bc927534f231533a82b27b2ac/html_css/v2/foundations/flexbox/imgs/05.png */
-.flex-item {
-    box-sizing: border-box;
-    padding: 0.5em;
-    width: 100%;
-  }
-.flex {
-	display: flex;
-	padding: 0.5em;
-}
-.item {
-	padding: 0.5em;
-}
-.green {
-	border: solid green;
-	background: lightgreen;
-	flex-direction: column;
-}
-.blue {
-	background: lightblue;
-	padding: 16px;
-	border: 4px solid blue;
-	gap: 8px;
-}
-.pink {
-	background: peachpuff;
-	border: 4px solid rgb(235, 129, 146);
-	height: 100px;
-	padding: 4px;
-}
-.red {
-	background: rgb(240, 193, 193);
-	border: 6px solid red;
-}
-.invisible-green {
-	background: lightgreen;
-}
-.big {
-	height: 300px;
-	width: 50%;
-}
-.little {
-	height: 120px;
-	width: 40%;	
-}
-.cranberry {
-	background: palevioletred;
-	border: solid magenta;
-}
-.purple {
-	background: rgb(163, 129, 163);
-	border: 4px solid purple;
+  border: 6px solid purple;
 }
 
 /* https://cdn.statically.io/gh/TheOdinProject/curriculum/495704c6eb6bf33bc927534f231533a82b27b2ac/html_css/v2/foundations/flexbox/imgs/05.png */
