@@ -17,6 +17,8 @@
   padding: 16px;
   border: 6px solid blue;
   gap: 8px;
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
 .pink {
   background: peachpuff;
@@ -42,10 +44,14 @@
   height: 300px;
   margin-left: -15px;
 }
-.cran-2,
-.cran-1 {
+.cran-1,
+.cran-2 {
   height: 140px;
   margin-left: 20px;
+}
+.cranberry,
+.cran-2 {
+  margin-bottom: -10px;
 }
 .cran-1 {
   margin-top: -9px;
